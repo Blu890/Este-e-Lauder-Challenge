@@ -16,6 +16,10 @@
 		28E9CCEE26A8E60100E41F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E9CCEC26A8E60100E41F7A /* LaunchScreen.storyboard */; };
 		28E9CCF926A8E60100E41F7A /* Este_e_Lauder_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E9CCF826A8E60100E41F7A /* Este_e_Lauder_ChallengeTests.swift */; };
 		28E9CD0426A8E60100E41F7A /* Este_e_Lauder_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E9CD0326A8E60100E41F7A /* Este_e_Lauder_ChallengeUITests.swift */; };
+		28E9CD1226A9102600E41F7A /* lightShadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E9CD1126A9102600E41F7A /* lightShadeViewController.swift */; };
+		28E9CD1426A9106300E41F7A /* light-mediumShadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E9CD1326A9106300E41F7A /* light-mediumShadeViewController.swift */; };
+		28E9CD1626A9107F00E41F7A /* mediumShadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E9CD1526A9107F00E41F7A /* mediumShadeViewController.swift */; };
+		28E9CD1826A910A500E41F7A /* darkShadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E9CD1726A910A500E41F7A /* darkShadeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		28E9CCFF26A8E60100E41F7A /* Estée-Lauder-ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Estée-Lauder-ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E9CD0326A8E60100E41F7A /* Este_e_Lauder_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Este_e_Lauder_ChallengeUITests.swift; sourceTree = "<group>"; };
 		28E9CD0526A8E60100E41F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E9CD1126A9102600E41F7A /* lightShadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightShadeViewController.swift; sourceTree = "<group>"; };
+		28E9CD1326A9106300E41F7A /* light-mediumShadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "light-mediumShadeViewController.swift"; sourceTree = "<group>"; };
+		28E9CD1526A9107F00E41F7A /* mediumShadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mediumShadeViewController.swift; sourceTree = "<group>"; };
+		28E9CD1726A910A500E41F7A /* darkShadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darkShadeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,10 @@
 				28E9CCE026A8E5FD00E41F7A /* SceneDelegate.swift */,
 				28E9CCE226A8E5FD00E41F7A /* ViewController.swift */,
 				28E9CCE426A8E5FD00E41F7A /* Main.storyboard */,
+				28E9CD1726A910A500E41F7A /* darkShadeViewController.swift */,
+				28E9CD1526A9107F00E41F7A /* mediumShadeViewController.swift */,
+				28E9CD1326A9106300E41F7A /* light-mediumShadeViewController.swift */,
+				28E9CD1126A9102600E41F7A /* lightShadeViewController.swift */,
 				28E9CCEA26A8E60100E41F7A /* Assets.xcassets */,
 				28E9CCEC26A8E60100E41F7A /* LaunchScreen.storyboard */,
 				28E9CCEF26A8E60100E41F7A /* Info.plist */,
@@ -261,9 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28E9CD1426A9106300E41F7A /* light-mediumShadeViewController.swift in Sources */,
 				28E9CCE326A8E5FD00E41F7A /* ViewController.swift in Sources */,
 				28E9CCDF26A8E5FD00E41F7A /* AppDelegate.swift in Sources */,
 				28E9CCE126A8E5FD00E41F7A /* SceneDelegate.swift in Sources */,
+				28E9CD1626A9107F00E41F7A /* mediumShadeViewController.swift in Sources */,
+				28E9CD1226A9102600E41F7A /* lightShadeViewController.swift in Sources */,
+				28E9CD1826A910A500E41F7A /* darkShadeViewController.swift in Sources */,
 				28E9CCE926A8E5FD00E41F7A /* Este_e_Lauder_Challenge.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
